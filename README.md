@@ -3,6 +3,6 @@ Powershell script to fetch Dell Warranty information using an entered service ta
 
 ## Usage
 1. You will need to request Dell API access and credentials.
-2. https://techdirect.dell.com/Portal/APIs.aspx
-3. 
+https://techdirect.dell.com/Portal/APIs.aspx
+
 ./FetchDellWarrantyInfo.ps1
