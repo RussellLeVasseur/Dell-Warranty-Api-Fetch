@@ -36,7 +36,7 @@ $DellApiResponse = Invoke-RestMethod -Uri "https://apigtwb2c.us.dell.com/PROD/sb
 $DellApiResponse | ConvertTo-Json | ConvertFrom-Json;
 $DellApiResponse = $DellApiResponse | ConvertTo-Json | ConvertFrom-Json;
 
-$SaveToFile = Read-Host -Prompt `n"Would you like to save this information to a file? yes|no";
+$SaveToFile = Read-Host -Prompt "`nWould you like to save this information to a file? yes|no";
 Start-Sleep -Seconds 1;
 Switch ($SaveToFile.ToLower()) {
     { @("y","ye","yes","yess")  -contains $_ } {
